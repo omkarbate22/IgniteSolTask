@@ -16,7 +16,9 @@ This project demonstrates a simple **Hello World API** built with **Node.js** fo
 
 - **Backend**: Node.js, Express.js
 - **Frontend**: React.js
-- **HTTP Requests**: Axios
+- **HTTP Requests**: HTTP
+
+
 
 ---
 
