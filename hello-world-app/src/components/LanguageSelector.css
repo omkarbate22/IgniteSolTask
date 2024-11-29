@@ -1,0 +1,99 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .api-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .api-card {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .api-header {
+    font-size: 2rem;
+    color: #3a3a3a;
+    margin-bottom: 20px;
+  }
+  
+  .api-label {
+    font-size: 1.1rem;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+    display: block;
+  }
+  
+  .api-select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #2575fc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #3a3a3a; /* Set the text color of the select options */
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .api-select:focus {
+    outline: none;
+    border-color: #6a11cb;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+  }
+  
+  .api-button {
+    background: linear-gradient(135deg, #2575fc, #6a11cb); /* Gradient button */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .api-button:hover {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Hover effect */
+  }
+  
+  .api-message {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #3a3a3a;
+    font-weight: bold;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
